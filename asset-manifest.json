@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/artemWebDevep/myPortfolioReactgit/static/css/main.6810d3c6.chunk.css",
+    "main.js": "/artemWebDevep/myPortfolioReactgit/static/js/main.7f153d9a.chunk.js",
+    "main.js.map": "/artemWebDevep/myPortfolioReactgit/static/js/main.7f153d9a.chunk.js.map",
+    "runtime-main.js": "/artemWebDevep/myPortfolioReactgit/static/js/runtime-main.db954c37.js",
+    "runtime-main.js.map": "/artemWebDevep/myPortfolioReactgit/static/js/runtime-main.db954c37.js.map",
+    "static/css/2.559fd73f.chunk.css": "/artemWebDevep/myPortfolioReactgit/static/css/2.559fd73f.chunk.css",
+    "static/js/2.56fce931.chunk.js": "/artemWebDevep/myPortfolioReactgit/static/js/2.56fce931.chunk.js",
+    "static/js/2.56fce931.chunk.js.map": "/artemWebDevep/myPortfolioReactgit/static/js/2.56fce931.chunk.js.map",
+    "index.html": "/artemWebDevep/myPortfolioReactgit/index.html",
+    "precache-manifest.7936a2add57674a0775d4d1108512243.js": "/artemWebDevep/myPortfolioReactgit/precache-manifest.7936a2add57674a0775d4d1108512243.js",
+    "service-worker.js": "/artemWebDevep/myPortfolioReactgit/service-worker.js",
+    "static/css/2.559fd73f.chunk.css.map": "/artemWebDevep/myPortfolioReactgit/static/css/2.559fd73f.chunk.css.map",
+    "static/css/main.6810d3c6.chunk.css.map": "/artemWebDevep/myPortfolioReactgit/static/css/main.6810d3c6.chunk.css.map",
+    "static/js/2.56fce931.chunk.js.LICENSE": "/artemWebDevep/myPortfolioReactgit/static/js/2.56fce931.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.db954c37.js",
+    "static/css/2.559fd73f.chunk.css",
+    "static/js/2.56fce931.chunk.js",
+    "static/css/main.6810d3c6.chunk.css",
+    "static/js/main.7f153d9a.chunk.js"
+  ]
+}
