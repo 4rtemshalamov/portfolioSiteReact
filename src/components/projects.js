@@ -13,44 +13,40 @@ class Contact extends Component {
                 <div className="projects-grid">
                     {/* Project1 */}
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center / cover' }}>React project #1</CardTitle>
+                        <CardTitle style={{ color: 'black', height: '176px', background: 'url(https://i.ibb.co/p4r94zH/Screenshot-5.png) center / cover' }}></CardTitle>
                         <CardText>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Mauris sagittis pellentesque lacus eleifend lacinia...
+                            Социальная сеть на 
+                            React-Redux.
+                            Для входа используйте Email: free@samuraijs.com Password: free
+
                     </CardText>
                         <CardActions border>
-                            <Button colored>GitHub</Button>
-                            <Button colored>CodPen</Button>
+                            <Button href="https://artemwebdevep.github.io/reactSocialNetwork/" target="_blank" colored>Open project</Button>
+                            <Button href="https://github.com/artemWebDevep/reactSocialNetwork/tree/master" target="_blank"colored>GitHub</Button>
                         </CardActions>
-                        <CardMenu style={{ color: '#fff' }}>
-                            <IconButton name="share" />
-                        </CardMenu>
+                
 
                     </Card>
 
-                    {/* Project1 */}
+                    {/* Project2 */}
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center / cover' }}>React project #1</CardTitle>
+                        <CardTitle style={{ color: 'black', height: '215px', background: 'url(https://i.ibb.co/37PX3Kx/Screenshot-6.png) center / cover' }}></CardTitle>
                         <CardText>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Mauris sagittis pellentesque lacus eleifend lacinia...
+                            Приложение для поиска рецептов 
                     </CardText>
                         <CardActions border>
-                            <Button colored>GitHub</Button>
-                            <Button colored>CodPen</Button>
+                            <Button href="https://artemwebdevep.github.io/trainingAPIRecipe/" target="_blank" colored>Open project</Button>
+                            <Button href="https://github.com/artemWebDevep/trainingAPIRecipe/tree/master" target="_blank" colored>GitHub</Button>
                         </CardActions>
-                        <CardMenu style={{ color: '#fff' }}>
-                            <IconButton name="share" />
-                        </CardMenu>
+                    
 
                     </Card>
 
-                     {/* Project1 */}
+                     {/* Project2
                      <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
                         <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center / cover' }}>React project #1</CardTitle>
                         <CardText>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Mauris sagittis pellentesque lacus eleifend lacinia...
+                            Lorem 
                     </CardText>
                         <CardActions border>
                             <Button colored>GitHub</Button>
@@ -60,7 +56,7 @@ class Contact extends Component {
                             <IconButton name="share" />
                         </CardMenu>
 
-                    </Card>
+                    </Card> */}
 
                 </div>
 
@@ -68,7 +64,36 @@ class Contact extends Component {
             )
         } else if (this.state.activeTab === 1) {
             return (
-                <div><h1>This is Angular</h1></div>
+                <div className="projects-grid">
+                    {/* Project1 */}
+                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                        <CardTitle style={{ color: 'black', height: '176px', background: 'url(https://i.ibb.co/268xkKQ/Screenshot-7.png) center / cover' }}></CardTitle>
+                        <CardText>
+                            Survival Store
+                            Магазин доставки товаров 
+                    </CardText>
+                        <CardActions border>
+                            <Button href="https://artemwebdevep.github.io/shop/" target="_blank" colored>Open project</Button>
+                            <Button href="https://github.com/artemWebDevep/shop" target="_blank" colored>GitHub</Button>
+                        </CardActions>
+                
+
+                    </Card>
+                    {/* Project2 */}
+                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                        <CardTitle style={{ color: 'white', height: '176px', background: 'url(https://i.ibb.co/WHGm2j8/Screenshot-8.png) center / cover' }}></CardTitle>
+                        <CardText>
+                        Feedback Form
+                    </CardText>
+                        <CardActions border>
+                            <Button href="https://codepen.io/artemwebdevep/pen/mdyRJqX" target="_blank" colored>Open project</Button>
+                        </CardActions>
+                
+
+                    </Card>
+
+                </div>
+                
             )
         } else if (this.state.activeTab === 2) {
             return (
@@ -88,10 +113,11 @@ class Contact extends Component {
         return (
             <div className="category-tabs">
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple >
-                    <Tab>React</Tab>
-                    <Tab>Angular</Tab>
+                    <Tab>ReactJS</Tab>
+                    <Tab>HTML/CSS</Tab>
+                    {/* <Tab>Angular</Tab>
                     <Tab>VueJS</Tab>
-                    <Tab>MongoDB</Tab>
+                    <Tab>MongoDB</Tab> */}
                 </Tabs>
 
                 <section className="projects-grid">

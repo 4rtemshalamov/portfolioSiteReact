@@ -13,18 +13,18 @@ function App() {
                     to='/'>MyPortfolio</Link>} scroll>
                     <Navigation>
                         <Link to="/resume">Resume</Link>
-                        <Link to="/aboutme">About me</Link>
+                        {/* <Link to="/aboutme">About me</Link> */}
                         <Link to="/projects">Projects</Link>
-                        <Link to="/contact">Contact</Link>
+                        {/* <Link to="/contact">Contact</Link> */}
                     </Navigation>
                 </Header>
                 <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}}
-                    to='/'>MyPortfolio</Link>} scroll>>
+                    to='/'>MyPortfolio</Link>} scroll>
                     <Navigation>
                         <Link to="/resume">Resume</Link>
-                        <Link to="/aboutme">About me</Link>
+                        {/* <Link to="/aboutme">About me</Link> */}
                         <Link to="/projects">Projects</Link>
-                        <Link to="/contact">Contact</Link>
+                        {/* <Link to="/contact">Contact</Link> */}
                     </Navigation>
                 </Drawer>
                 <Content>

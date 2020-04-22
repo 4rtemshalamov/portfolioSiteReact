@@ -1,50 +1,56 @@
-import React, { Component } from "react"
-import { Grid, Cell } from 'react-mdl'
+import React, {Component} from "react"
+import {Grid, Cell} from 'react-mdl'
 
 class Landing extends Component {
     render() {
         return (
-            <div style={{ width: '100%', margin: 'auto' }}>
+            <div style={{width: '100%', margin: 'auto'}}>
                 <Grid className="landing-grid">
-                    <Cell col={12}></Cell>
-                        <img src="https://cdn0.iconfinder.com/data/icons/user-pictures/100/malecostume-512.png" 
+                    <Cell col={12}><img
+                        src="https://i.ibb.co/2qbzk9X/Untitled.png"
                         alt="avatar"
-                        className="avatar-img"/>
+                        className="avatar-img"/></Cell>
 
-                        <div className="banner-text">
-                            <h1>Front end Web Developer</h1>
+
+                    <div className="banner-text">
+                        <h1>Front end Web Developer</h1>
 
                         <hr/>
 
-                        <p>HTML/CSS | JavaScript | React</p>
+                        <p>HTML/CSS | JavaScript | React  | Redux</p>
 
                         <div className="social-links">
 
                             {/* LinkedIn */}
-                            <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-                            <i className="fa fa-linkedin-square" aria-hidden="true" />    
+                            <a href="https://linkedin.com/in/artemShalamov" rel="noopener noreferrer" target="_blank">
+                                <i className="fa fa-linkedin" aria-hidden="true"/>
                             </a>
 
                             {/* GitHub */}
-                            <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-                            <i className="fa fa-github-square"  aria-hidden="true" />    
+                            <a href="https://github.com/artemWebDevep?tab=repositories" rel="noopener noreferrer"
+                               target="_blank">
+                                <i className="fa fa-github" aria-hidden="true"/>
                             </a>
 
-                             {/* VK */}
-                             <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-                            <i className="fa fa-telegram-square"  aria-hidden="true" />    
+                            {/* VK */}
+                            <a href="https://vk.com/id96105457" rel="noopener noreferrer" target="_blank">
+                                <i className="fa fa-vk" aria-hidden="true"/>
                             </a>
 
-                            {/* Facebook */}
-                            <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-                            <i className="fa fa-facebook-square"  aria-hidden="true" />    
+                            {/* Telegram */}
+                            <a href="https://t.me/artemShalamov" rel="noopener noreferrer" target="_blank">
+                                <i className="fa fa-telegram" aria-hidden="true"/>
                             </a>
                         </div>
-                            
-                        </div>
+
+                    </div>
                 </Grid>
             </div>
         )
     }
 }
-export default Landing 
+
+export default Landing
+
+
+
